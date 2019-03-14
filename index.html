@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HOME | CRUISE CORNER</title>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-----Animation------->
+  <link rel="stylesheet" href="css/imagehover.min.css">
+  <!-- Style -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
+  <!--Onpage Styling-->
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    p {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <!---------Nav------->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" 
+        class="navbar-toggle" 
+        data-toggle="collapse" 
+        data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="resources/logo.png" alt="logo" id="logo" ></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="cruises.html">CRUISE FINDER</a></li>
+          <li><a href="specials.html">SPECIALS</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="http://sandowntravel.co.za/">XL SANDOWN TRAVEL</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <!---------Slider---------->
+  <div id="myCarousel" class="carousel slide"  data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="resources/EU Rivers.jpeg" alt="" style="width: 100%">
+      </div> <!---End active slider----->
+      <div class="item">
+        <img src="resources/World.jpg" alt="" style="width: 100%">
+      </div>
+      <div class="item">
+        <img src="resources/cruise2.jpg" alt="" style="width: 100%">
+      </div>
+    </div> 
+    <!---Slider Control---->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" arial-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" arial-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div> <!---End of slider---->
+
+<!---Sign Up Modal---->
+  <div id="bkgOverlay" class="backgroundOverlay"></div>
+  <div id="delayedPopup" class="delayedPopupWindow">
+    <!-- This is the close button -->
+    <a href="#" id="btnClose" title="Click here to close this deal box.">[ X ]</a>
+    <!-- This is the left side of the popup for the description -->
+    <div class="formDescription">
+      <h2>Sign Up and <span style="color: #333; font-weight: bold;">Save!</span></h2>
+      <p>Sign up today and be the first to know about our SPECIALS!</p>
+    </div>
+    <!-- Begin MailChimp Signup Form -->
+    <div id="mc_embed_signup">
+      <form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+        <div class="mc-field-group">
+          <label for="mce-FNAME">First Name
+            <span class="asterisk">*</span>
+          </label>
+          <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+        </div>
+        <div class="mc-field-group">
+          <label for="mce-LNAME">Last Name
+            <span class="asterisk">*</span>
+          </label>
+          <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+        </div>
+        <div class="mc-field-group">
+          <label for="mce-EMAIL">Email Address
+            <span class="asterisk">*</span>
+          </label>
+          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+        </div>
+
+        <div id="mce-responses" class="clear">
+          <div class="response" id="mce-error-response" style="display:none"></div>
+          <div class="response" id="mce-success-response" style="display:none"></div>
+        </div>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;">
+          <input type="text" name="PLEASE INPUT THE MAILCHIMP CODE" value="">
+        </div>
+        <div class="clear">
+          <input type="submit" value="Save Money!" name="subscribe" id="mc-embedded-subscribe" class="button">
+        </div>
+      </form>
+    </div>
+    <!-- End MailChimp Signup Form -->
+  </div> <!---End of Sign Up Modal-->
+
+  <!------Section 1----->
+  <div class="container text-center">
+    <a href="specials.html"><h2>CRUISE SPECIALS</h2></a>
+    <div class="row"> 
+      <div class="col-md-3">
+        <a href="emarald-waterfall-europe.html">
+          <figure class="imghvr-shutter-in-out-horiz">
+          <img src="resources/europe.jpeg" class="img-responsive" alt="EUROPE" id="special" height="500px" width="500px">
+          <figcaption>
+              <h3 class="ih-fade-down ih-delay-sm">EMERALD WATERWAYS - EUROPE</h3>
+              <p class="ih-zoom-in ih-delay-md">Various departures April to October 2019</p>
+          </figcaption>
+        </figure></a>
+      </div>
+      <div class="col-md-3">
+        <a href="eastern-mediterranean.html">
+          <figure class="imghvr-shutter-in-out-horiz">
+          <img src="resources/specials/venice.jpg" class="img-responsive" alt="Venice" id="special" height="500px" width="500px">
+          <figcaption>
+              <h3 class="ih-fade-down ih-delay-sm">EASTERN MEDITERRANEAN</h3>
+              <p class="ih-zoom-in ih-delay-md">18 October 2019 (7 nights)</p>
+          </figcaption>
+        </figure></a>
+      </div>
+      <div class="col-md-3">
+          <a href="western-mediterranean.html">
+            <figure class="imghvr-shutter-in-out-horiz">
+          <img src="resources/specials/Malta.jpg" class="img-responsive" alt="Malta" id="special"height="500px" width="500px">
+          <figcaption>
+              <h3 class="ih-fade-down ih-delay-sm">WESTERN MEDITERRANEAN</h3>
+              <p class="ih-zoom-in ih-delay-md">20 October 2019 (7 nights)</p>
+          </figcaption>
+        </figure></a>
+      </div>
+      <div class="col-md-3">
+        <div class="blogHomeSec">
+          <a href="why-cruising.html"><p class="text-left"><img src="resources/blog.jpg" height="80px" width="80px" alt="" class="blogHome">Why Cruising?</p></a>
+          <p class="text-left">OCTOBER 3, 2018</p>
+          <hr>
+          <br><a href="#"><p class="text-left"><img src="resources/blog.jpg" height="80px" width="80px" alt="" class="blogHome">Latest trends in Cruising</p></a>
+          <p class="text-left">NOVEMBER 10, 2018</p>
+          <hr>
+          <br><a href="#"><p class="text-left"><img src="resources/blog.jpg" height="80px" width="80px" alt="" class="blogHome">Best Swimsuit trends 2016 </p></a>
+          <p class="text-left">DECEMBER 4, 2018</p>
+          <hr>
+          <br><a href="#"><p class="text-left"><img src="resources/blog.jpg" height="80px" width="80px" alt="" class="blogHome">A sneak peak on board the Disney Magic</p></a>
+          <p class="text-left">JANUARY 3, 2019</p>
+          <hr>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <!-------Hero Banner---------->
+  <div class="hero">
+    <div class="hero-inner">
+      <h2>DISCOVERY <br>CARD HOLDERS</h2>
+      <p>Get up to 20% cash back on all Royal Caribbean Cruises</p>
+    </div>
+  </div>
+  
+  <!------Destinations------>
+  <div class="container text-center">
+      <h2>DESTINATIONS</h2>
+      <div class="row"> 
+        <div class="col-sm-4" id="destination-gallery">
+          <a href="#"><img src="resources/ship1.jpeg" alt="" id="destinations"></a>
+        </div>
+        <div class="col-sm-4" id="destination-gallery">
+          <a href="#"><img src="resources/traveller.jpeg" alt="" id="destinations"></a>
+        </div>
+        <div class="col-sm-4" id="destination-gallery">
+          <a href="#"><img src="resources/ship3.jpeg" alt="" id="destinations"></a>
+        </div>
+        <div class="col-sm-4" id="destination-gallery">
+          <a href="#"><img src="resources/ship4.jpeg" alt="" id="destinations"></a>
+        </div>
+        <div class="col-sm-4" id="destination-gallery">
+          <a href="#"><img src="resources/touring.jpeg" alt="" id="destinations"></a>
+        </div>
+        <div class="col-sm-4" id="destination-gallery">
+          <a href="#"><img src="resources/view2.jpeg" alt="" id="destinations"></a>
+        </div>
+      </div>
+    </div>
+    
+<!----------Scroll to top--------->
+<a href="#" id="scroll" style="display: none;"><span></span></a>
+
+<!----------Footer---------->
+<section id="footer">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-4">
+        <h4>LOVE CRUISING</h4>
+          <p>Our Cruise Specialists, not only have many years of general travel service experience, 
+          they have been hand-picked for their mastery of the unique art of Cruise Travel Services. 
+          Furthermore, they have exclusively concentrated on oﬀering to our valued clients the pinnacle 
+          of Cruise speciﬁc travel advice and services.</p>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-pinterest"></a>
+          <a href="#" class="fa fa-youtube"></a>
+      </div>
+
+        <div class="col-md-4">
+            <h4>OUR AGENCY</h4>
+        <h3><strong>Cruise Corner Head Office:</strong></h3>
+        <p style="color: white">Visit us at our brand new Sandown Travel<br>
+        Concept Store Sandton City<br>
+        Cnr 5th Street & Rivonia Road<br>
+        Sandton<br>
+        South Africa<br></p>
+        <p style="color: white">Tel: <a href="tel:011 – 506 5600" id="footer-links">011 – 506 5600</a><br> 
+        <!--Cell: <a href="tel:082 492 8195" id="footer-links">082 492 8195</a> (Chrissa)<br> -->
+        Emergency Cell: <a href="tel:082 654 0664" id="footer-links">082 654 0664</a> (After Hours Emergencies Only Number)<br>
+        Email: <a href="mailto:info@cruisecorner.co.za" id="footer-links">info@cruisecorner.co.za</a><br>
+        </p>
+        </div>
+
+        <div class="col-md-4">
+            <h4>SUBSCRIBE TO OUR NEWSLETTER</h4>
+            <p>Be the first to hear about promotions and insight into the world of cruising</p>
+          <br>
+          <div class="signup-form" id="newsletter">
+              <form action="success.php" method="post">
+                  <div class="form-group">
+                      <div class="form-group"><input type="text" class="form-control" name="first_name" placeholder="First Name" required="required"></div>
+                  </div>
+                  <div class="form-group">
+                      <input type="email" class="form-control" name="email" placeholder="Email" required="required">
+                  </div>
+                  <div class="form-group">
+                      <input type="text" class="form-control" name="number" placeholder="Mobile Number" required="required">
+                  </div>
+                  <div class="form-group">
+                      <button type="submit" class="btn btn-secondary btn-lg ">SIGN UP</button>
+                  </div>
+              </form>
+          </div>
+        </div>
+    </div></div>
+</section>
+
+  <!------JS----->
+  <script src="js/main.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="/js/jquery.cookie.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+</body>
+</html>
